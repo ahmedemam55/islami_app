@@ -1,0 +1,41 @@
+name: islamic_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^8.0.2
+  flutter_bounceable: ^1.2.0
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  animated_custom_dropdown: ^3.1.1
+  provider: ^6.1.5+1
+  just_audio: ^0.10.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true 
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/files/
+  fonts:
+    - family: ElMessiri
+      fonts:
+        - asset: assets/fonts/ElMessiri-Bold.ttf
+        - asset: assets/fonts/ElMessiri-Regular.ttf
+        - asset: assets/fonts/ElMessiri-Medium.ttf
+        - asset: assets/fonts/ElMessiri-SemiBold.ttf
